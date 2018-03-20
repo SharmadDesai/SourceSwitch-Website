@@ -1,0 +1,53 @@
+body, html {
+  height: 100%; }
+
+.menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: black;
+  border-bottom: 2px solid white;
+  left: 0px;
+  padding: 0px 75px;
+  z-index: 999;
+  text-align: center;
+  width: 100%; }
+
+.list-padding {
+  color: white;
+  padding-right: 20px; }
+
+.card-lg {
+  margin: 1rem;
+  padding: 5rem; }
+
+.card-plan {
+  margin-left: 1rem;
+  padding: 5rem;
+  padding-bottom: 30rem; }
+
+.parallax {
+  background: url("/assets/C.jpg");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax-height {
+  height: 50%;
+  background-color: aquamarine; }
+
+.l {
+  color: white;
+  padding-top: 300px;
+  font-size: 200px; }
+
+.parallax-2 {
+  background: url("/assets/D.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
