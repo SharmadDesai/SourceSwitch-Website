@@ -27,6 +27,7 @@ body,html{
     transition: background-color 1s ease 0s;
     box-shadow: 0 0 4px grey;
 }
+//<li> padding
 .list-padding{
     color: white;
     padding-right:20px;
@@ -64,13 +65,9 @@ body,html{
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
+//navbar end
 
-  
-
-
-  //navbar end
-
-  //parallax image 1
+  //Parallax  stars image 1
 .parallax{
     background:#000;
 
@@ -95,11 +92,8 @@ body,html{
 .tag-line{
     color: white;
 }
-.hello{
-    position: absolute;
-    background:white;
-    
-}
+
+//Star wave 1 
 #stars{
 width: 1px;
 height: 1px;
@@ -124,6 +118,7 @@ box-shadow: 950px 1900px #fff,1284px 300px #fff,1500px 353px #fff,1835px 820px #
 animation: animStar 50s linear infinite;
 }
 
+//Star wave 2
 #stars2{
 width: 2px;
 height: 2px;
@@ -143,11 +138,12 @@ box-shadow: 150px 250px khaki,  970px 1930px #fff,1304px 320px #fff,1520px 373px
 560px 1090px #fff, 500px 870px #fff,905px 1082px #fff,810px 1227px #fff ,325px 244px #fff,100px 270px #fff,120px 360px #fff,190px 770px #fff ,
 785px 427px #fff ,510px 700px #fff,322px 940px #fff, 372px 750px #fff,122px 885px #fff,172px 649px #fff,110px 1047px #fff,129px 1476px #fff,
 144px 1176px #fff,158px 1359px #fff , 620px 965px #fff,1765px 1080px #fff,1665px 880px #fff,1575px 1280px #fff,1365px 1180px #fff,1242px 1302px #fff,
-1765px 1080px #fff,1564px 1119px #fff,1719px 1464px #fff,1465px 1242px #fff,1555px 1380px #fff,;;
+1765px 1080px #fff,1564px 1119px #fff,1719px 1464px #fff,1465px 1242px #fff,1555px 1380px #fff,;
+
 animation: animStar 100s linear infinite;
 
 }
-
+//Movement of stars
 @keyframes animStar {
     from{
         transform: translateX(0);
@@ -157,7 +153,7 @@ animation: animStar 100s linear infinite;
     }
 }
 
-//End Parallax-1
+// Parallax stars end
 
 //Our Services 
 .divide-line{
@@ -219,14 +215,25 @@ animation: animStar 100s linear infinite;
 //Our Service end 
 
 //Website
+.parallax-2
+{
+    background: url("/assets/D.jpg");
+
+
+    height: 40%;
+
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .card-plan{
     margin: 2rem;
     padding: 2rem;
-   padding-bottom: 0rem;
-   
-
-}
-
+   }
+//website plan hover box border
 .hvr-reveal-1 {
     display: inline-block;
     vertical-align: middle;
@@ -265,42 +272,13 @@ animation: animStar 100s linear infinite;
     border-width: 4px;
   }
 
-  .website-row
-  {
-      padding-right: 100px;
-      padding-left: 50px;
-      margin-bottom: 20px;
-  }
-.p-b{
-    padding-top:10px;
-    padding-bottom: 10px; 
-}
+  
+
 //Universal
 
 
-.parallax-height{
-    height: 50%;
-    background-color:aquamarine;
-}
-.l{
-  color: white;
-padding-top: 300px;  
-font-size: 200px;  
-}
-.parallax-2
-{
-    background: url("/assets/D.jpg");
 
 
-    height: 40%;
-
-    
-    background-attachment: fixed;
-    background-position: center;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 

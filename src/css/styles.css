@@ -76,10 +76,6 @@ a:before {
 .tag-line {
   color: white; }
 
-.hello {
-  position: absolute;
-  background: white; }
-
 #stars {
   width: 1px;
   height: 1px;
@@ -149,10 +145,18 @@ a:before {
   transform: translateY(0);
   border-width: 4px; }
 
+.parallax-2 {
+  background: url("/assets/D.jpg");
+  height: 40%;
+  background-attachment: fixed;
+  background-position: center;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .card-plan {
   margin: 2rem;
-  padding: 2rem;
-  padding-bottom: 0rem; }
+  padding: 2rem; }
 
 .hvr-reveal-1 {
   display: inline-block;
@@ -187,30 +191,3 @@ a:before {
   transform: translateY(0);
   transform: translateZ(20px);
   border-width: 4px; }
-
-.website-row {
-  padding-right: 100px;
-  padding-left: 50px;
-  margin-bottom: 20px; }
-
-.p-b {
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-.parallax-height {
-  height: 50%;
-  background-color: aquamarine; }
-
-.l {
-  color: white;
-  padding-top: 300px;
-  font-size: 200px; }
-
-.parallax-2 {
-  background: url("/assets/D.jpg");
-  height: 40%;
-  background-attachment: fixed;
-  background-position: center;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover; }
