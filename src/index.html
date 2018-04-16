@@ -8,8 +8,9 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
         <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.5/css/mdb.min.css" />
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
-                      
+                  
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/styles.css">
         <link href="css/hover.css" rel="stylesheet" media="all">
@@ -18,44 +19,62 @@
 
     <body>
       <!--Navbar start-->
-          <nav id="home"class="navbar navbar-default text-center  ">
+          <nav id="home"class="navbar navbar-expand-lg navbar-default scrolling-navbar fixed-top text-center  ">
          <div class="container-fluid ">   
-             
-                <a href="#home"class="navbar-brand">LOGO</a>
-          
+             <a href="#home"class="navbar-brand">LOGO</a>
 
- <ul class="nav ">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+             </button>
+             <div>
+                 <ul class="nav pull-right collapse navbar-collapse mt-0" id="basicExampleNav">
               <li class="nav-item list-padding ">
-                  <h5>
-                 <a href="#home">Home</a>
-                </h5>
+                  
+                 <a class="nav-link h5  "href="#home"><span class="d">Home</span><span class="sr-only">(current)</span></a>
+                
               </li>
-              <li class="nav-item list-padding"> 
-                  <h5>
-                  <a href="">Pricing</a>
-                </h5>
-              </li>
-              <li class="nav-item list-padding pull-right">
-                  <h5 >
-                  <a href="">Our Work</a>
-                </h5>
-              </li>
-              <li class="nav-item list-padding pull-right">
-                    <h5 >
-                    <a href=""></a>
-                  </h5>
+              <li class="nav-item list-padding dropdown " > 
+                 
+                  <a class="nav-link dropdown-toggle h5"  href="#" role="button" id="navbarDropdownMenuLink" data-toggle="dropdown" ><span class="caret d">Pricing</span></a>
+                
+              <ul class="dropdown-menu dropdown-content " aria-labelledby="navbarDropdownMenuLink">
+                  
+                    
+                      <li class="i">
+                    <a class=" text-center " href="#" ><h6 class="j">Website Development</h6></a>
                 </li>
-              <button href="" type="button" class="btn btn-info btn-rasied rounded-btn " style="margin-bottom:10px ">Get Qoute</button>
+                    <li>
+                    <a class=" text-center  " href="#" ><h6>Mobile Development</h6></a>
+                </li>
+                <li>
+                    <a class=" text-center  " href="#" ><h6>Graphic Development</h6></a>
+                </li>
+              </ul>
+              </li>
+              <li class="nav-item list-padding pull-right">
+                  
+                  <a class="nav-link  h5 " href="#"><span class="d ">Our Work</span></a>
+                
+              </li>
+              <li class="nav-item list-padding pull-right">
+                  <div>
+                    <a class="nav-link  h5" href="#"><span class="d">Contact</span></a>
+                </div>
+                </li>
+              <li class="nav-item pull-right">
+              <button href="#" type="button" class="btn nav-link btn-info btn-rasied rounded-btn  h5" >Get Qoute</button>
+            </li>
           </ul>
           
-
+</div>
         </div>
           </nav>
+          
         <!--Below Navbar-->
        
         <!--Parallax stars-->
         <div class="parallax" >
-            
+                
+           
             <div id="stars" style="z-index: 1;" ></div>
             <div id="stars2"></div>
             <div class="jumbotron vertical-center">
@@ -71,8 +90,8 @@
                 </div>
                 
             </div>
-            
         </div>
+        
          <!--Parallax stars end-->
 
         <!--Our services -->
@@ -171,7 +190,7 @@
                 <!--Website plans-->
                 <!--website parallax starts-->
            <div class="parallax-2">
-              <h1 id="website" class="text-center l mx-auto ">Website</h1>
+              <h1 id="website" class="text-center parallax-text mx-auto ">Website</h1>
            </div>
                <!--website parallax end-->
                <section>
@@ -253,12 +272,12 @@
           <!--Website plans end-->
        
           <div class="parallax-2">
-                <h1 id="website" class="text-center l mx-auto ">Website</h1>
+                <h1 id="website" class="text-center parallax-text mx-auto ">Mobile</h1>
              </div>
              <section>
 
              </section>
-
+            
 
             <script src="/js/jquery.min.js"></script>
             <script src="/js/popper.min.js"></script>
@@ -274,14 +293,19 @@
             $(document).ready(function() {
         // transition effect for navbar transparent to solid 
         $(window).scroll(function() {
-          // checks if window is scrolled more than 500px, adds/removes solid class(scss)
+          // checks if window is scrolled more than 250px, adds/removes solid class(scss)
           if($(this).scrollTop() > 250) { 
               $('.navbar').addClass('solid');
+              $('.d').addClass('solid');
+              $('.dropdown-toggle').addClass('solid');
+
           } else {
               $('.navbar').removeClass('solid');
+              $('.d').removeClass('solid');
+              $('.dropdown-toggle').removeClass('solid');
           }
           });
-          });
+           });
             </script>
             <!--Navbar trasperent to solid Ends -->
            
