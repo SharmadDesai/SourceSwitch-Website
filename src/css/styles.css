@@ -25,6 +25,7 @@ body, html {
 .rounded-btn {
   margin-top: 10px;
   border-radius: 25px;
+  border: none;
   width: 100%; }
 
 .d {
@@ -215,7 +216,7 @@ body, html {
 .hvr-reveal:hover:before, .hvr-reveal:focus:before, .hvr-reveal:active:before {
   -webkit-transform: translateY(0);
   transform: translateY(0);
-  border-width: 4px; }
+  border-width: 6px; }
 
 .parallax-2 {
   background: url("/assets/website.png");
@@ -252,7 +253,7 @@ body, html {
   left: 50px;
   right: 50px;
   top: 60px;
-  bottom: 70px;
+  bottom: 60px;
   border-color: #000000;
   border-style: solid;
   border-width: 0px;
@@ -268,6 +269,31 @@ body, html {
   transform: translateY(0);
   transform: translateZ(50px);
   border-width: 10px; }
+
+.get-quote {
+  background-color: gold;
+  min-width: 100%;
+  min-height: 100%;
+  padding: 50px; }
+
+.divide-line-qoute {
+  width: 4px;
+  height: 150px;
+  color: #000;
+  background-color: #000;
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.rounded-btn-qoute {
+  margin-top: 0px;
+  border-radius: 25px;
+  border: none;
+  width: 50%;
+  height: 50%; }
+
+ul {
+  list-style-type: none; }
 
 .divide-line {
   width: 20%;
@@ -292,6 +318,9 @@ body, html {
   padding-top: 10px;
   align-items: center; }
 
+.p-b-10 {
+  padding-bottom: 10px; }
+
 .p-t-30 {
   padding-top: 30px; }
 
@@ -300,3 +329,12 @@ body, html {
 
 .p-20 {
   padding: 20px; }
+
+.p-30 {
+  padding: 30px; }
+
+.p-b-50 {
+  padding-bottom: 50px; }
+
+.p-t-50 {
+  padding-top: 50px; }

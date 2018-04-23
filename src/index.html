@@ -1,334 +1,386 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-    <head>
-        <title>Portfolio</title>
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
-        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.5/css/mdb.min.css" />
-        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<head>
+    <title>Portfolio</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-                  
-        <link rel="stylesheet" href="/css/bootstrap.css">
-        <link rel="stylesheet" href="/css/styles.css">
-        <link rel="stylesheet" href="/css/bootstrap-navbar-toggle.css">
-        <link href="css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.5/css/mdb.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
-    </head>
 
-    <body>
-      <!--Navbar start-->
-          <nav id="home"class="navbar navbar-dark1  navbar-expand-lg  scrolling-navbar fixed-top ">
-                <a href="#home"class="navbar-brand mr-auto">LOGO</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" data-label-expanded="Close" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                    
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-             <ul class=" navbar-nav ml-auto" id="basicExampleNav">
-              <li class="nav-item active list-padding ">
-                   <a class="nav-link h5   "href="#home"><span class="d">Home</span><span class="sr-only">(current)</span></a>
-              </li>
-              
-              <li class="nav-item list-padding dropdown  " > 
-                  <a class="nav-link nav-navbar dropdown-toggle h5"  href="#" role="button" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false" ><span class="caret d">Pricing</span></a>
-                <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenu">
-                 <li>
-                    <a  href="#" ><h6 class="p-10">Website Development</h6></a>
-                 </li>  
-                 <div class="dropdown-divider"></div>      
-                 <li>
-                    <a href="#" ><h6 class="p-10">Website Development</h6></a>
-                 </li> 
-                 <div class="dropdown-divider"></div>  
-                 <li>
-                    <a  href="#" ><h6 class="p-10">Website Development</h6></a>
-                 </li>   
-                </ul>
-              </li>
-              
-              <li class="nav-item list-padding ">
-                <a class="nav-link  h5 " href="#"><span class="d ">Our Work</span></a>
-              </li>
-              <li class="nav-item list-padding ">
-                  <div>
-                    <a class="nav-link  h5" href="#"><span class="d">Contact</span></a>
-                </div>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/bootstrap-navbar-toggle.css">
+    <link href="css/hover.css" rel="stylesheet" media="all">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!--Navbar start-->
+    <nav  class="navbar navbar-dark1  navbar-expand-lg  scrolling-navbar fixed-top ">
+        <a href="#home" class="navbar-brand mr-auto">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+            data-label-expanded="Close" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class=" navbar-nav ml-auto" id="basicExampleNav">
+                <li class="nav-item active list-padding ">
+                    <a class="nav-link h5   " href="#home">
+                        <span class="d">Home</span>
+                        <span class="sr-only">(current)</span>
+                    </a>
                 </li>
-              <li class="nav-item ">
-              <button href="#" type="button" class="btn nav-link btn-info btn-rasied rounded-btn  h5" >Get Qoute</button>
-            </li>
-          </ul>  
+
+                <li class="nav-item list-padding dropdown  ">
+                    <a class="nav-link nav-navbar dropdown-toggle h5" href="#website" role="button" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+                        <span class="caret d">Pricing</span>
+                    </a>
+                    <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenu">
+                        <li>
+                            <a href="#website">
+                                    <img class="pull-left" src="assets/Web Development.svg" style="width: 25%;height: 25%;">
+
+                                <h6 class="p-10">Website Development</h6>
+                            </a>
+                        </li>
+                        <div class="dropdown-divider"></div>
+                        <li>
+                            <a href="#mobile">
+                                <img class="pull-left" src="assets/Mobile Development.svg" style="width: 25%;height: 25%;">
+                                <h6 class="p-10">Mobile Development</h6>
+                            </a>
+                        </li>
+                        <div class="dropdown-divider"></div>
+                        <li>
+                            <a href="#">
+                                    <img class="pull-left" src="assets/Graphics.svg" style="width: 25%;height: 25%;">
+
+                                <h6 class= "p-t-10"><span>Graphics Design</span></h6>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item list-padding ">
+                    <a class="nav-link  h5 " href="#website">
+                        <span class="d ">Our Work</span>
+                    </a>
+                </li>
+                <li class="nav-item list-padding ">
+                    <div>
+                        <a class="nav-link  h5" href="#">
+                            <span class="d">Contact</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <button href="#" type="button" class="btn nav-link btn-info btn-rasied rounded-btn  h5">Get Qoute</button>
+                </li>
+            </ul>
         </div>
     </nav>
-     <!--Below Navbar-->     
-        
-       
-     <!--Parallax stars-->
-        <div class="parallax" >
-               
-         <div id="stars" style="z-index: 1;" ></div>
-            <div id="stars2"></div>
-            
-            <div class="jumbotron vertical-center">
-             <div class="container">
+    <!--Below Navbar-->
+
+
+    <!--Parallax stars-->
+    <div id="home" class="parallax">
+
+        <div id="stars" style="z-index: 1;"></div>
+        <div id="stars2"></div>
+
+        <div class="jumbotron vertical-center">
+            <div class="container">
                 <div class="rows">
                     <div class="col-lg-5 col-md-6 col-sm-12">
                         <h1 class="tag-line">Get your website done in just Rs 399</h1>
                         <button type="button" class="btn btn-rasied  btn-info  btn-lg">Learn more</button>
                     </div>
-                    
-        
-                     
-                   </div>
-             </div>   
-             
+
+
+
+                </div>
             </div>
-            
+
+        </div>
+
+    </div>
+    </div>
+    <!--Parallax stars end-->
+
+
+    <!--Our services -->
+    <section>
+        <div class="text-center">
+            <div>
+                <h1 class="p-t-30 display-4">BEST IS HERE</h1>
+            </div>
+            <hr class="divide-line">
+            <div>
+                <p class="text-center">We built user interface and modern website and mobile apllication.</br>Help you build strong online presence
+                    by creating websites that suits you</p>
+            </div>
+            <div>
+                <h1>WHAT WE DO</h1>
+            </div>
+            <hr class="divide-line">
+
+            <div>
+                <p class="text-center">We built user interface and modern website and mobile apllication.</br>Help you build strong online presence
+                    by creating websites that suits you</p>
+            </div>
+            <div>
+
+                <div class="row service-row">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 p-20 ">
+
+                        <div class="hvr-reveal card">
+
+                            <img src="assets/Web Development.svg" style="height: 100%; width: 100%;" alt="">
+                            <div>
+                                <h3 class="p-t-10">Website Development</h3>
+                                <hr class="divide-line-card">
+
+                            </div>
+                            <div>
+                                <p>We design interactive website as per your requirement as well as to target your audience</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 p-20  ">
+
+                        <div class="hvr-reveal card">
+
+                            <img src="assets/Mobile Development.svg" style="height: 100%; width: 100%;" alt="">
+                            <div>
+                                <h3 class="p-t-10">Mobile Development</h3>
+                                <hr class="divide-line-card">
+
+                            </div>
+                            <div>
+                                <p>We design interactive website as per your requirement as well as to target your audience</p>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 p-20  ">
+
+                        <div class="hvr-reveal card">
+
+                            <img src="assets/Graphics.svg" style="height: 100%; width: 100%;" alt="">
+                            <div>
+                                <h3 class="p-t-10">Graphics Design</h3>
+                                <hr class="divide-line-card">
+
+                            </div>
+                            <div>
+                                <p>We design interactive website as per your requirement as well as to target your audience</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 p-20 ">
+
+                        <div class="hvr-reveal card">
+
+                            <img src="assets/Web Development.svg" style="height: 100%; width: 100%;" alt="">
+                            <div>
+                                <h3 class="p-t-10">Website Development</h3>
+                                <hr class="divide-line-card">
+
+                            </div>
+                            <div>
+                                <p>We design interactive website as per your requirement as well as to target your audience</p>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
-        <!--Parallax stars end-->
-         
-
-        <!--Our services -->
-         <section >    
-                 <div class="text-center">
-                  <div>
-                      <h1 class="p-t-30 display-4">BEST IS HERE</h1>
-                  </div>
-                <hr class="divide-line">
-                  <div>
-                      <p class="text-center" >We built user interface and modern website and mobile apllication.</br>Help you build strong online presence by creating websites that suits you</p>
-                  </div>
-                    <div>
-                        <h1>WHAT WE DO</h1>
-                    </div>
-                    <hr class="divide-line">
-
-                    <div>
-                            <p class="text-center" >We built user interface and modern website and mobile apllication.</br>Help you build strong online presence by creating websites that suits you</p>
-                        </div>
-                  <div>
-                     
-                     <div class="row service-row"  >
-                          <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 p-20 "   >
-                                
-                              <div class="hvr-reveal card" >
-                                 
-                                      <img src="assets/Web Development.svg" style="height: 100%; width: 100%;" alt="">
-                                  <div>
-                                      <h2 class="p-t-10">Website Development</h2>
-                                      <hr class="divide-line-card">
-
-                                  </div>
-                                  <div>
-                                      <p>We design interactive website as per your requirement as well as to target your audience</p>
-                                  </div>
-                              </div>
-                            
-                          </div>
-                          <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 p-20  "   >
-                                
-                                <div class="hvr-reveal card" >
-                                   
-                                        <img src="assets/Mobile Development.svg" style="height: 330px; width: 100%;" alt="">
-                                    <div>
-                                        <h2 class="p-t-10">Mobile  Development</h2>
-                                        <hr class="divide-line-card">
-  
-                                    </div>
-                                    <div>
-                                        <p>We design interactive website as per your requirement as well as to target your audience</p>
-                                    </div>
-                                </div>
-                              </span>
-                            </div>
-                            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 p-20  "   >
-                                
-                                    <div class="hvr-reveal card" >
-                                       
-                                            <img src="assets/Graphics.svg" style="height: 100%; width: 50%;" alt="">
-                                        <div>
-                                            <h2 class="p-t-10">Graphic Design</h2>
-                                            <hr class="divide-line-card">
-      
-                                        </div>
-                                        <div>
-                                            <p>We design interactive website as per your requirement as well as to target your audience</p>
-                                        </div>
-                                    </div>
-                                  </span>
-                                </div>
-                                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 p-20 "   >
-                                
-                                        <div class="hvr-reveal card" >
-                                           
-                                                <img src="assets/Web Development.svg" style="height: 100%; width: 100%;" alt="">
-                                            <div>
-                                                <h2 class="p-t-10">Website Devlopment</h2>
-                                                <hr class="divide-line-card">
-          
-                                            </div>
-                                            <div>
-                                                <p>We design interactive website as per your requirement as well as to target your audience</p>
-                                            </div>
-                                        </div>
-                                      </span>
-                                    </div>
-                      </div>
-                  </div>
-                </div>
         </div>
     </section>
-        <!--Our services-->
+    <!--Our services-->
 
 
-                <!--Website plans-->
-                <!--website parallax starts-->
-           <div class="parallax-2">
-              <h1 id="website" class="text-center parallax-text mx-auto ">Website</h1>
-           </div>
-               <!--website parallax end-->
-               <section>
-          <div class="text-center">
-              <div>
-              <h2>Website Plans</h2>
-              <hr class="divide-line">
-             <p>Here some cheap Webite monthy plans </p>
+    <!--Website plans-->
+    <!--website parallax starts-->
+    <div class="parallax-2">
+        <h1 id="website" class="text-center parallax-text mx-auto ">Website</h1>
+    </div>
+    <!--website parallax end-->
+    <section>
+        <div class="text-center">
+            <div>
+                <h1 class="p-t-30">Website Plans</h1>
+                <hr class="divide-line">
+                <p class="text-center h4 p-b-50">Here are some cheap Website monthy plans </p>
             </div>
-              <div class="row ">
-                  <div data-tilt class="col-xl-3 col-lg-12 col-md-12 col-sm-12   ml-auto " style="transform-style: preserve-3d;">
-                        
-                    <div  class=" card " >
-                      <div class="hvr-reveal-1"style="transform: translateZ(50px)">
-                              
-                <div class="">
-                    <img src="assets/bronze.svg" style="height: 100%; width: 100%;"alt="">    
-                    <h2 class="">Bronze Plan</h2>
-                    <h4>Rs 399</h4>
-                    <ul>
-                        <li>
+
+            <div class="row  p-b-50">
+                <div data-tilt class="col-xl-3 col-lg-12 col-md-12 col-sm-12  ml-auto " style="transform-style: preserve-3d;">
+                    <div class="card">
+
+                        <div class="text-center hvr-reveal-1" style="transform: translateZ(50px)">
+                            <img class="mx-auto" src="assets/bronze.svg" style="height: 100%; width: 100%;" alt="">
+                            <h2>Bronze Plan</h2>
+                            <h4>Rs 399</h4>
+
                             <h6>3 pages</h6>
-                        </li>
-                        <li>5 emails on hosting purchase</li>
-                        <li>Resposive design</li>
-                        <li>Extra chager per extra page </li>
-                        <li>Domain & Hosting excluded</li>
-                        <li>Normal SEO</li>
-                    </ul>
+                            <h6>5 emails on hosting purchase</h6>
+                            <h6>Resposive design</h6>
+                            <h6>Extra chager per extra page </h6>
+                            <h6>Domain & Hosting excluded</h6>
+                            <h6>Normal SEO</h6>
+                        </div>
+                    </div>
                 </div>
+
+                <div data-tilt class="col-xl-3 col-lg-12 col-md-12 col-sm-12  mx-auto " style="transform-style: preserve-3d;">
+                    <div class="card">
+                        <div class="text-center hvr-reveal-1 js" style="transform: translateZ(50px)">
+
+                            <img class="mx-auto" src="assets/silver.svg" style="height: 100%; width: 100%;" alt="">
+                            <h2>Silver Plan</h2>
+                            <h4>Rs 499</h4>
+
+                            <h6>3 pages</h6>
+                            <h6>5 emails on hosting purchase</h6>
+                            <h6>Resposive design</h6>
+                            <h6>Extra chager per extra page </h6>
+                            <h6>Domain & Hosting excluded</h6>
+                            <h6>Normal SEO</h6>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div data-tilt class="col-xl-3 col-lg-12 col-md-12 col-sm-12   mr-auto " style="transform-style: preserve-3d;">
+                    <div class="card  ">
+                        <div class="text-center hvr-reveal-1 " style="transform: translateZ(50px)">
+                            <img class="mx-auto" src="assets/gold.svg" style="height: 100%; width: 100%;" alt="">
+                            <h2>Gold Plan</h2>
+                            <h4>Rs 699</h4>
+
+                            <h6>3 pages</h6>
+                            <h6>5 emails on hosting purchase</h6>
+                            <h6>Resposive design</h6>
+                            <h6>Extra chager per extra page </h6>
+                            <h6>Domain & Hosting excluded</h6>
+                            <h6>Normal SEO</h6>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
-                  </div>
+            <div class="container get-quote">
+                <div class="row text-center">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-4 p-t-30 ">
+                        <h1>Need an urgent estimate</h3>
+                            <p class="h4">Fill the form and we will get in touch with you </p>
+                    </div>
+                    <div class=" ">
+                        <hr class="divide-line-qoute">
+                    </div>
+                    <div class="col-lg-3 p-t-50">
+                        <button href="#" type="button" class="btn  btn-info btn-rasied rounded-btn-qoute  h5">Get Qoute</button>
+
+
+                    </div>
                 </div>
-                <div data-tilt class="col-xl-3 col-lg-12 col-md-12 col-sm-12  mx-auto" style="transform-style: preserve-3d;">
-                        <div  class=" card  " >
-                            <div class ="hvr-reveal-1 " style="transform: translateZ(20px)">
-                                    
-                      <div class="   p-10"> 
-                        <img src="assets/silver.svg" style="height: 100%; width: 100%;"alt="">   
-                          <h2>Silver Plan</h2>
-                          <h4>Rs 499</h4>
-                          <ul>
-                              <li>
-                                  <h6>4 pages</h6>
-                              </li>
-                              <li>5 emails on hosting purchase</li>
-                              <li>Resposive design</li>
-                              <li>Extra chager per extra page </li>
-                              <li>Domain & Hosting excluded</li>
-                              <li>Normal SEO</li>
-                          </ul>
-                      </div>
-      
-                  </div>
-                        </div>
-                      </div>
-                      <div data-tilt class="col-xl-3 col-lg-12 col-md-12 col-sm-12   mr-auto " style="transform-style: preserve-3d;">
-                            <div  class="card" >
-                                <div class="hvr-reveal-1 " style="transform: translateZ(20px)">
-                                        
-                          <div class="   p-10">    
-                                <img src="assets/gold.svg" style="height: 100%; width: 100%;"alt="">   
-                              <h2>Gold Plan</h2>
-                              <h4>Rs 699</h4>
-                              <ul>
-                                  <li>
-                                      <h6>4 pages</h6>
-                                  </li>
-                                  <li>5 emails on hosting purchase</li>
-                                  <li>Resposive design</li>
-                                  <li>Extra chager per extra page </li>
-                                  <li>Domain & Hosting excluded</li>
-                                  <li>Normal SEO</li>
-                              </ul>
-                          </div>
-          
-                      </div>
-                            </div>
-                          </div>
-                       
-                          <div>
+            </div>
+    </section>
+    <!--Website plans end-->
 
-                          </div>
-          </div>
-        </section>
-          <!--Website plans end-->
-       
-          <div class="parallax-2">
-                <h1 id="website" class="text-center parallax-text mx-auto ">Mobile</h1>
-             </div>
-             <section>
+    <div class="parallax-2">
+        <h1 id="mobile" class="text-center parallax-text mx-auto ">Mobile</h1>
+    </div>
+    <section>
 
-             </section>
-            
+    </section>
 
-            <script src="/js/jquery.min.js"></script>
-            <script src="/js/popper.min.js"></script>
-            <script src="/js/bootstrap.min.js"></script>
-            <script src="/js/tilt.jquery.js"></script>
-            <script src="/js/bootstrap-navbar-toggle.min.js"></script>
-            <script type="text/javascript" src="/js/skrollr.min.js"></script> <!--scroll reveal animation-->
-            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.5/js/mdb.min.js"></script><!--Material design-->
-            <script type="text/javascript">
-            var s=skrollr.init();
-            </script>
-            <!--Navbar trasperent to solid -->
-            <script>
-            $(document).ready(function() {
-        // transition effect for navbar transparent to solid 
-        $(window).scroll(function() {
-          // checks if window is scrolled more than 250px, adds/removes solid class(scss)
-          if($(this).scrollTop() > 250) { 
-              $('.navbar').addClass('solid');
-              $('.navbar-toggler-icon').addClass('solid')
-              $('.d').addClass('solid');
-              $('.dropdown-toggle').addClass('solid');
 
-          } else {
-              $('.navbar').removeClass('solid');
-              $('.d').removeClass('solid');
-              $('.navbar-toggler-icon').removeClass('solid')
-              $('.dropdown-toggle').removeClass('solid');
-          }
-          });
-           });
-            </script>
-            <script>
-            $(document).ready(function(){
-    $('.d').click(function(){
-        $('.d').removeClass("active");
-        $(this).addClass("active");
-    });
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/tilt.jquery.js"></script>
+    <script src="/js/bootstrap-navbar-toggle.min.js"></script>
+    <script type="text/javascript" src="/js/skrollr.min.js"></script> <!--scroll reveal animation-->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.5/js/mdb.min.js"></script><!--Material design-->
+    
+    <script type="text/javascript">
+        var s = skrollr.init();
+    </script>
+
+    <!--Navbar trasperent to solid -->
+    <script>
+        $(document).ready(function () {
+            // transition effect for navbar transparent to solid 
+            $(window).scroll(function () {
+                // checks if window is scrolled more than 250px, adds/removes solid class(scss)
+                if ($(this).scrollTop() > 250) {
+                    $('.navbar').addClass('solid');
+                    $('.navbar-toggler-icon').addClass('solid')
+                    $('.d').addClass('solid');
+                    $('.dropdown-toggle').addClass('solid');
+
+                } else {
+                    $('.navbar').removeClass('solid');
+                    $('.d').removeClass('solid');
+                    $('.navbar-toggler-icon').removeClass('solid')
+                    $('.dropdown-toggle').removeClass('solid');
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.d').click(function () {
+                $('.d').removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+
+    </script>
+    <!--Navbar trasperent to solid Ends -->
+
+    <!--Smooth scroll-->
+    <script>
+        $('.js-tilt').tilt({
+            scale: 1.2
+
+        })
+    </script>
+    <script>
+   $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+       event.preventDefault();
+       var hash = this.hash;
+     $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
   });
+});
+</script>
+   
 
-            </script>
-            <!--Navbar trasperent to solid Ends -->
-           
-    </body>
-    
-     
-    
+</body>
+
+
+
 </html>
